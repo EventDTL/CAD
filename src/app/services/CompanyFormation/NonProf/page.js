@@ -91,7 +91,7 @@ const NonProf = () => {
           </p>
 
           <div className={styles.imageContainer}>
-        <Image src="/images/istockphoto-486772894-612x612.jpg" alt="NPO Guide" className={styles.img} />
+        <img src="/images/istockphoto-486772894-612x612.jpg" alt="NPO Guide" className={styles.img} />
           </div>
           <h2>Introduction to Non-Profit Organizations</h2>
           <p>

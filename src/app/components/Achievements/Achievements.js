@@ -55,7 +55,7 @@ function Achievements() {
           {data.map((item, index) => (
             <div
               key={index}
-              className="inline-block h-[326px] w-[362px] mt-[50px] rounded-[30px] bg-[#0E1021] shrink-0 ag:w-[300px] ag:h-[300px] af:w-[345px] aa:w-[360px] lg:w-[31//po0px] lg:h-[250px] md:w-[300px] md:h-[200px] sm:w-[240px] sm:h-[240px] xs:w-[150px] xs:h-[120px]"
+              className="inline-block h-auto w-[362px] mt-[50px] rounded-[30px] bg-[#0E1021] shrink-0 ag:w-[300px] af:w-[345px] aa:w-[360px] lg:w-[31//po0px] md:w-[300px] sm:w-[240px] xs:w-[150px]"
             >
               <div className="w-[91px] h-[91px] rounded-full border-[3px] border-[#0E1021] bg-white flex justify-center items-center mx-auto mt-[-40px] lg:w-[80px] lg:h-[80px] md:w-[60px] md:h-[60px] md:mt-[-30px]">
                 <img src={item.icon} alt="icon" className="w-[41px] h-[29px] md:w-[30px] md:h-[20px]" />

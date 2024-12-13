@@ -10,11 +10,11 @@ const Certification = () => {
         },
         {
             url: "/JSG.svg",
-            description: 'Recognized by Jain Social Groups International Fedaration'
+            description: 'Recognized by JSG International Federation'
         },
         {
             url: "/SPIRIT.svg",
-            description: 'Recognized by Scope Spirit'
+            description: 'Recognized by Scope Spirit'
         },
         {
             url: "/Hattrick.png",
@@ -22,7 +22,7 @@ const Certification = () => {
         },
         {
             url: "/JUO.png",
-            description: 'Emerging Business coach of the year 2022'
+            description: 'Emerging Business coach of the year 2022'
         }
     ];
 
