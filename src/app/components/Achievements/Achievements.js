@@ -13,7 +13,7 @@ const data = [
     },
     {
         year:'2009',
-        description:'Worked on the 100+ acres land parcel where 216 owners which was financed by German bank through English mortgage.',
+        description:'Worked on the 100+ acres land parcel where 216 owners which was financed by German bank.',
         icon:'/calogo.jpg'
     },
     {
@@ -48,7 +48,7 @@ function Achievements() {
         </div>
   
         <div
-          className="py-1.5 flex gap-[9px] aa:gap-[35px] sm:gap-[6px] md:gap-[35px] overflow-x-auto scroll-smooth custom-scrollbar ag:ml-[16px] af:ml-[24px] aa:ml-[32px] lg:ml-[75px]"
+          className="py-1.5 ag:h-[325px] sm:h-[260px] xl:h-[300px] flex gap-[9px] aa:gap-[35px] sm:gap-[6px] md:gap-[35px] overflow-x-auto scroll-smooth custom-scrollbar ag:ml-[16px] af:ml-[24px] aa:ml-[32px] lg:ml-[75px]"
           ref={sliderRef}
           onWheel={handleScroll}
         >
@@ -61,11 +61,11 @@ function Achievements() {
                 <img src={item.icon} alt="icon" className="w-[41px] h-[29px] md:w-[30px] md:h-[20px]" />
               </div>
   
-              <h1 className="text-center mt-9 text-white font-inter font-bold text-[32px] md:mt-5 md:text-xl sm:text-lg xs:text-base">
+              <h1 className="text-center mt- text-white font-inter font-bold text-[32px] md:mt-5 md:text-xl sm:text-lg xs:text-base">
                 {item.year}
               </h1>
   
-              <p className="px-6 md:px-10 mt-[30px] text-center text-white font-inter font-normal text-[23px] leading-[27.6px] md:mt-[11px] md:text-base sm:text-sm xs:text-xs">
+              <p className="px-6 md:px-10 mt-[5px] text-center text-white font-inter font-normal text-[23px] leading-[27.6px] md:mt-[11px] md:text-base sm:text-sm xs:text-xs">
                 {item.description}
               </p>
             </div>

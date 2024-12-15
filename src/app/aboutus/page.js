@@ -11,10 +11,10 @@ const ClientStat = ({ number, description }) => (
 
 const AboutUs = () => {
   const teamembers = [
-    { name: "Hemant Zujam", role: "Accountant", imgsrc: "/Hemant.jpg" },
-    { name: "Ganesh Manajre", role: "Manager", imgsrc: "/Ganesh.jpg" },
-    { name: "Gauri Jagtab", role: "Finance Assistant", imgsrc: "/Gauri.jpg" },
-    { name: "Chanchal Mate", role: "Account Assistant", imgsrc: "/chanchal.jpg" },
+    { name: "HEMANT ZUJAM", role: "ACCOUNTANT", imgsrc: "/Hemant.jpg" },
+    { name: "GANESH MANJARE", role: "MANAGER", imgsrc: "/Ganesh.jpg" },
+    { name: "GAURI JAGTAP", role: "FINANCE ASSISTANT", imgsrc: "/Gauri.jpg" },
+    { name: "CHANCHAL MATE", role: "ACCOUNT ASSISTANT", imgsrc: "/chanchal.jpg" },
   ];
 
   return (

@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         {/* Links and Contact Sections */}
-        <div className="md:w-1/2 flex flex-col md:flex-row space-y-8 md:space-y-0 md:gap-4 md:ml-12">
+        <div className="md:w-1/2 flex flex-row md:flex-row space-y-8 md:space-y-0 md:gap-4 md:ml-12">
           {/* Company Links */}
           <div className="flex flex-col space-y-2 md:w-1/2">
             <h3 className="text-lg font-bold md:text-2xl mb-2 text-orange">Company</h3>
